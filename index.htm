@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сторінка-візитка про котів</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Коти — найкращі друзі</h1>
+    <p>Все про пухнастих, ніжних і веселих улюбленців</p>
+    <nav>
+      <a href="#why-cats">Про котів</a>
+      <a href="#breeds">Породи</a>
+      <a href="#table-section">Таблиця</a>
+      <a href="#gallery">Галерея</a>
+      <a href="#contact">Контакт</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section" id="why-cats">
+      <h2>Чому всі люблять котів?</h2>
+      <p>Коти — одні з найпопулярніших домашніх тварин у світі. Вони лагідні, розумні, охайні та мають унікальні характери. Кожен кіт — це маленька особистість.</p>
+      <ul>
+        <li>Лагідні та дружні</li>
+        <li>Розумні та допитливі</li>
+        <li>Легкі у догляді</li>
+      </ul>
+    </section>
+
+    <section class="section" id="breeds">
+      <h2>Породи котів</h2>
+      <div class="cats-grid">
+        <div class="cat-card">
+          <img src="https://tvaryny.com/sites/default/files/images/breed/156996/gallery-156996_2.jpg" alt="Британський короткошерстий">
+          <h3>Британський короткошерстий</h3>
+          <p>Спокійний, міцний кіт із густою плюшевою шерстю. Легкий у догляді, дружній, підходить для квартири. Схильність до зайвої ваги.</p>
+        </div>
+        <div class="cat-card">
+          <img src="https://koshka.top/uploads/posts/2021-11/1636405319_18-koshka-top-p-mein-kun-smeshnie-50.jpg" alt="Мейн-кун">
+          <h3>Мейн-кун</h3>
+          <p>Великий, мускулистий кіт із довгою шерстю та китицями на вухах. Дружній, розумний, активний. Потребує регулярного вичісування.</p>
+        </div>
+        <div class="cat-card">
+          <img src="https://ic.pics.livejournal.com/masterok/50816465/9858633/9858633_original.jpg" alt="Сфінкс">
+          <h3>Сфінкс</h3>
+          <p>Лисий кіт із тонкою шкірою та великими вухами. Ласкавий, теплий і дружелюбний. Потребує догляду за шкірою та регулярного обігріву.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="table-section">
+      <h2>Порівняння порід</h2>
+      <table>
+        <tr><th>Порода</th><th>Характер</th><th>Догляд</th></tr>
+        <tr><td>Британський</td><td>Спокійний</td><td>Легкий</td></tr>
+        <tr><td>Мейн-кун</td><td>Дружній</td><td>Регулярне вичісування</td></tr>
+        <tr><td>Сфінкс</td><td>Ласкавий</td><td>Догляд за шкірою</td></tr>
+      </table>
+    </section>
+
+    <section class="section" id="gallery">
+      <h2>Галерея</h2>
+      <p>Милі фото котиків:</p>
+      <div class="carousel">
+        <button class="prev">❮</button>
+        <div class="carousel-track-container">
+          <ul class="carousel-track">
+            <li class="carousel-slide"><img src="https://habinfo.ru/media_new/4/2/4/1/-memes_kiska_3-1/-memes_kiska_3-1-thumb_1920.jpg" alt="Cat"></li>
+            <li class="carousel-slide"><img src="https://www.meme-arsenal.com/memes/67aba8a2cc315107020fe8582bf38bf6.jpg" alt="Cat"></li>
+            <li class="carousel-slide"><img src="https://www.meme-arsenal.com/memes/ae8b47ceca6e0012b068cdf5dba98387.jpg" alt="Cat"></li>
+          </ul>
+        </div>
+        <button class="next">❯</button>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Зворотний зв'язок</h2>
+      <form>
+        <label for="name">Ім'я:</label>
+        <input id="name" type="text" placeholder="Ім'я" required>
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="Email" required>
+        <label for="message">Повідомлення:</label>
+        <textarea id="message" placeholder="Повідомлення" required></textarea>
+        <button type="submit">Надіслати</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    © 2025 Сторінка про котів. Усі права захищено.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
